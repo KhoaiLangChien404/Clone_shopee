@@ -16,7 +16,23 @@
             <div class="grid">
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item--separate">Vào cửa hàng ứng dụng F8-shop</li>
+                        <li class="header__navbar-item header__item--has_qr header__navbar-item--separate">
+                            Vào cửa hàng ứng dụng F8-shop
+
+                            <!-- header QR code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/shopee_qr.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <!-- nếu sử dụng display: flex cho thẻ img mà hình ảnh bị bóp méo thì phải đặt trong một thẻ a -->
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/ch_play.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="App store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                         <li class="header__navbar-item">
                             <span class="header__navbar-item--no-pointer">Kết nối</span>
                             <a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fab fa-facebook"></i></a> 
