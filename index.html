@@ -250,11 +250,524 @@
             </div>
         </header>
 
-        <!-- <div class="container">
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">Danh mục</h3>
+            
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
 
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+
+                                <!-- list option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá cao đến thấp</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                            <div class="home-filter__paginate">
+                                <span class="home-filter__paginate-num">
+                                    <span class="home-filter__paginate-current">1</span>
+                                    / 14
+                                </span>
+
+                                <div class="home-filter__paginate-control">
+                                    <a href="" class="home-filter__paginate-btn home-filter__paginate-btn--disabled">
+                                        <i class="home-filter__paginate-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__paginate-btn">
+                                        <i class="home-filter__paginate-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- grid -> row -> column -->
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <!-- product item -->
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvww0j3m4au33e);"></div>
+                                        <h4 class="home-product-item__name">Thùng 36 hộp Sữa pha sẵn Nestlé NANGROW sữa mát công thức từ Thụy Sĩ 100% Canxi giúp bé cao lớn vượt trội 9(4 x 110ml)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">468.000</span>
+                                            <span class="home-product-item__price-current">408.000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhat Ban</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product-pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="paginate-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="paginate-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <footer class="footer">
+        <!-- <footer class="footer">
 
         </footer> -->
 
